@@ -220,6 +220,8 @@ For conciseness, avoid using `self` since Swift does not require it to access an
 
 Use `self` when required to differentiate between property names and arguments in initializers, and when referencing properties in closure expressions (as required by the compiler):
 
+Use `self` when accessing anything from a base class
+
 ```swift
 class BoardLocation {
   let row: Int, column: Int
